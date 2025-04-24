@@ -8,24 +8,29 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Nopovertyapp"
+        android:theme="@style/Theme.OnlineExams"
         tools:targetApi="31">
         <activity
-            android:name=".Activity.HomeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Activity.SignupActivity"
+            android:name=".ListQuizzes"
             android:exported="true" />
         <activity
-            android:name=".Activity.LoginActivity"
+            android:name=".Result"
             android:exported="true" />
         <activity
-            android:name=".Activity.WelcomeActivity"
+            android:name=".ExamEditor"
             android:exported="true" />
         <activity
-            android:name=".Activity.CoursesListActivity"
+            android:name=".Exam"
+            android:exported="true" />
+        <activity
+            android:name=".Home"
+            android:exported="true" />
+        <activity
+            android:name=".Signup"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,9 +38,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Activity.MainActivity"
-            android:exported="true" />
     </application>
 
 </manifest>

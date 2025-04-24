@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "769061428967",
+    "project_id": "onlineexams-lee",
+    "storage_bucket": "onlineexams-lee.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769061428967:android:2b34544fa8b07eca694c42",
+        "android_client_info": {
+          "package_name": "com.bob.onlineexams"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHfMZtALeX4109nnSYlEc-Ec1xVzuebGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
